@@ -1,0 +1,354 @@
+@font-face {
+    font-family: "Eusthalia Sans Slant";
+    src:url("fonts/eusthalia_sans_slant-webfont.woff") format("woff");
+    src:url("fonts/Eusthalia Sans Slant.otf") format("ttf");
+    src:url("fonts/eusthalia_sans_slant-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Lato-Light";
+    src:url("fonts/lato-light-webfont.woff") format("woff");
+    src:url("fonts/Lato-Light.otf") format("ttf");
+    src:url("fonts/lato-light-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Odachi";
+    src:url("fonts/odachi-webfont.woff") format("woff");
+    src:url("fonts/Odachi.otf") format("ttf");
+    src:url("fonts/odachi-webfont.woff2") format("woff2");
+}
+
+
+
+#currentPage a:link{
+    text-decoration: none;
+    color: #300C06;
+    background-color: #EADFC0;
+
+}
+
+#currentPage a:visited{
+    text-decoration: none;
+    color: #300C06;
+}
+
+#currentPage a:hover{
+    text-decoration: none;
+    color: #300C06;
+}
+
+#currentPage a:active{
+    text-decoration: none;
+    color: #300C06;
+}
+
+#currentPage1{
+    color:#300C06;
+    display: inline;
+    transtion: color .5s ease;
+    cursor: pointer;
+    padding-left: 25px;
+    font-family: Eusthalia Sans Slant, sans-serif ;
+    font-size: 1.5vw;
+
+}
+
+#currentPage1 a:link{
+    text-decoration: none;
+    color: #EADFC0;
+    background-color:#300C06 ;
+
+}
+
+#currentPage1 a:visited{
+    text-decoration: none;
+    color: #EADFC0;
+}
+
+#currentPage1 a:hover{
+    text-decoration: none;
+    color: #EADFC0;
+}
+
+#currentPage1 a:active{
+    text-decoration: none;
+    color: #EADFC0;
+}
+
+
+
+#brown{
+    width: 40vw;
+    height: 35vw;
+    background-color: #300C06;
+    position: absolute;
+    top:0.7vw;
+    left:65.5vw;
+
+
+}
+
+
+
+#container{
+    width: 100vw;
+    height: 35vw;
+    background-color: white;
+    background-image: url("Header - Coffee Cup - Wide.png");
+    background-size: cover;
+    width:65vw;
+    height:35vw;
+    top:0;
+}
+
+#slogan1{
+    position:absolute;
+    text-align: center;
+    left: 31vw;
+    top: -1vw;
+    color: white;
+    font-size: 8vw;
+    font-family: Odachi, sans-serif ;
+}
+
+#slogan2{
+    position:absolute;
+    text-align: center;
+    left: 25vw;
+    top: -3vw;
+    color: white;
+    font-size: 15vw;
+    font-family: Odachi, sans-serif;
+}
+
+#currentPage{
+    color:#300C06;
+    display: inline;
+    transtion: color .5s ease;
+    cursor: pointer;
+    padding-left: 25px;
+    font-family: Eusthalia Sans Slant, sans-serif ;
+    font-size: 1.5vw;
+
+}
+
+#nav{
+    position: absolute;
+    width: 100vw;
+}
+
+#shopping{
+    position: absolute;
+    cursor: pointer;
+    top: 2.1vw;
+    left: 60vw;
+
+
+
+}
+
+#redround{
+    position: absolute;
+    top: 3.5vw;
+    left: 61vw;
+}
+
+#total{
+    position: absolute;
+    cursor: pointer;
+    top: 3.4vw;
+    left: 61.5vw;
+}
+
+
+#word1{
+    position:absolute;
+    left: 76vw;
+    top: 9vw;
+    color: white;
+    font-size: 4vw;
+    font-family: Eusthalia Sans Slant,sans-serif;
+}
+
+
+#word6{
+    position:absolute;
+    left: 45vw;
+    top: 33vw;
+    color: #300C06;
+    font-size: 10vw;
+    float: top;
+    font-family: Odachi,sans-serif;
+}
+
+#square{
+    position: absolute;
+    left: 42vw;
+    top: 50vw;
+    width: 28vw;
+    height: 3vw;
+    background-color: #EADFC0;
+}
+
+.lhs{
+    position: absolute;
+    left:20vw;
+    top:55vw;
+
+}
+
+#text1{
+    font-size: 1.5vw;
+    font-family: Eusthalia Sans Slant,sans-serif;
+    background-color: #DBDBDB;
+    width: 30vw;
+
+}
+#text2{
+
+    font-size: 1.5vw;
+    font-family: Eusthalia Sans Slant,sans-serif;
+    background-color: #DBDBDB;
+    width: 30vw;
+}
+
+
+.rhs{
+    position: absolute;
+    left:60vw;
+    top:55vw;
+
+}
+
+#text3{
+    font-size: 1.5vw;
+    font-family: Eusthalia Sans Slant,sans-serif;
+    background-color: #DBDBDB;
+    width: 30vw;
+
+}
+#text4{
+
+    font-size: 1.5vw;
+    font-family: Eusthalia Sans Slant,sans-serif;
+    background-color: #DBDBDB;
+    width: 30vw;
+}
+
+
+.message{
+    position: absolute;
+    left:20vw;
+    top:65vw;
+
+}
+
+#text5{
+
+    font-size: 1.5vw;
+    font-family: Eusthalia Sans Slant,sans-serif;
+    background-color: #DBDBDB;
+    width: 70vw;
+    height: 15vw;
+    vertical-align: top;
+    padding-top: 0vw;
+
+
+}
+
+
+
+#btn{
+    cursou:pointer;
+    color: #EADFC0;
+    background-color:#300C06 ;
+    font-size: 1.5vw;
+    font-family: Eusthalia Sans Slant,sans-serif;
+
+}
+
+#bottom1{
+    position:absolute;
+    left: 50vw;
+    top: 85vw;
+
+
+}
+
+
+#box5{
+    position: absolute;
+    top: 100vw;
+    left: 37vw;
+    width: 68vw;
+    height: 30vw;
+    background-color: #EADFC0;
+}
+
+#map {
+    position: absolute;
+    left: 18vw;
+    top: 95vw;
+    background-image: url("Footer - Map.png");
+    background-size: cover;
+    width:70vw;
+    height:30vw;
+}
+
+#line{
+    position: absolute;
+    top: 120vw;
+    left: 52vw;
+    width: 30vw;
+    height: 2vw;
+    background-color: #DA4E31;
+}
+
+#word25{
+    position: absolute;
+    left: 53.5vw;
+    top: 116.5vw;
+    color: #300C06;
+    font-size: 2.0vw;
+    font-family: Eusthalia Sans Slant,sans-serif;
+}
+
+#box6{
+    position: absolute;
+    top: 130vw;
+    left: 0;
+    width: 105vw;
+    height: 15vw;
+    background-color: #300C06;
+
+}
+
+#copyright{
+    position: absolute;
+    left: 18vw;
+    top: 132vw;
+    color: white;
+    font-size: 1.0vw;
+    font-family: Eusthalia Sans Slant,sans-serif;
+}
+
+#photoby{
+    position: absolute;
+    left: 73vw;
+    top: 133vw;
+    color: white;
+    font-size: 1.0vw;
+    font-family: Eusthalia Sans Slant,sans-serif;
+}
+
+
+#visual{
+    position: absolute;
+    left: 73vw;
+    top: 135vw;
+    color: white;
+    font-size: 1.0vw;
+    font-family: Lato-Light,sans-serif;
+}
+
